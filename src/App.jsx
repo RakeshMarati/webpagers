@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header/Header.jsx'
 import ProductCard from './components/ProductCard/ProductCard.jsx'
+import Home from "./pages/Home/Home.jsx"
 
 function App() {
   const sampleProduct = {
@@ -14,8 +15,7 @@ function App() {
      <div className='App'>
       <Header/>
       <main>
-      <h2>This is our main content area</h2>
-      <ProductCard product={sampleProduct}/>
+      <Home />
       </main>
      </div>
     </>
